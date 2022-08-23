@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Inicio</title>
-    <script type="text/javascript" src="../lib/descartes-min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/descartes-min.js" charset="utf-8"></script>
 </head>
 
 <body style="zoom: 120%; margin-left:2em">
@@ -23,7 +23,7 @@
         <param name="C_04" value="id='v' tipo='gráfico' espacio='Graficos' color='222222' color-int='f0f8ff' tamaño='4' expresión='(3.5*rnd,3.5*rnd)' dibujar-si='comp_o_caract=0' activo-si='interactuar!=0' ">
         <param name="C_05" value="id='magnitud' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(mag.x,mag.y,80,35)' valor='rnd*4' min='0.000001' decimales='1' visible='sí' dibujar-si='comp_o_caract=1' activo-si='comp_o_caract=1' ">
         <param name="C_06" value="id='Phi' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(Phi.x,Phi.y,80,35)' valor='rnd*360' incr='5' max='360' decimales='0' visible='sí' dibujar-si='comp_o_caract=1' activo-si='comp_o_caract=1' ">
-        <param name="C_07" value="id='interactuar' interfaz='botón' tipo='numérico' región='interior' espacio='Instrucciones' expresión='(Instrucciones._w-28,8,20,20)' valor='1' color='blanco' color-int='blanco' fuente puntos='18' imagen='images/cerrar.png' acción='calcular' parámetro='interactuar=1' ">
+        <param name="C_07" value="id='interactuar' interfaz='botón' tipo='numérico' región='interior' espacio='Instrucciones' expresión='(Instrucciones._w-28,8,20,20)' valor='1' color='blanco' color-int='blanco' fuente puntos='18' imagen='../images/cerrar.png' acción='calcular' parámetro='interactuar=1' ">
         <param name="C_11" value="id='Teoria.0y' tipo='numérico' interfaz='pulsador' región='interior' espacio='Teoria' nombre='_._' expresión='(Teoria._w-25,Teoria._h-50,25,50)' incr='100' min='-1500' max='0' visible='no' ">
         <param name="A_01" value="id='Phi(x,y)' algoritmo='sí' expresión='phi' hacer='phi=(abs(x)>epsilon)?atan(abs(y)/abs(x)):pi/2;phi=((x<0)&(y>0))?pi-phi:phi;phi=((x<0)&(y<0))?pi+phi:phi;phi=((x>0)&(y<0))?2*pi-phi:phi' tipo='función' ">
         <param name="A_02" value="id='Norma(x,y)' algoritmo='no' expresión='sqrt(x^2+y^2)' tipo='función' ">
