@@ -71,13 +71,13 @@
                             <ul>
                                 <li class="active"><a href="index.html">Home</a></li>
                                 <li class="has-dropdown">
-                                    <a href="blog.html">Aprende</a>
+                                    <a href="vectores.html">Aprende</a>
                                     <ul class="dropdown">
                                         <li>
-                                            <a href="aprendevectoresenplanoespacio.html">Vectores en el plano y espacio</a>
+                                            <a href="vectores.html">Vectores en el plano y espacio</a>
                                         </li>
-                                        <li><a href="sumydif.html">Suma y diferencia de vectores</a></li>
-                                        <li><a href="magnitudvectorial.html">Magnitud vectorial por una escalar</a></li>
+                                        <li><a href="sumDif.html">Suma y diferencia de vectores</a></li>
+                                        <li><a href="prodEscalar.html">Magnitud vectorial por una escalar</a></li>
                                         <li><a href="prodvectorial.html">Producto vectorial y mixto</a></li>
                                     </ul>
                                 </li>
@@ -99,7 +99,7 @@
                 <param name="E_06" value="tipo='R2' id='Teoria' x='540' y='105' ancho='375' alto='190' fijo='sí' fondo='9fffff' red='no' red10='no' ejes='no' ">
                 <param name="E_08" value="tipo='R2' id='Instrucciones' x='(970-490)/2' y='60' ancho='490' alto='450' dibujar-si='interactuar=0' fijo='sí' despl_imagen='mosaico' fondo='eeeef7' red='no' red10='no' ejes='no' ">
                 <param name="C_02" value="id='Escalar' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(a.x,a.y,60,25)' valor='aleatorio(x)*2' decimales='1' visible='sí' dibujar-si='Operacion=1' ">
-                <param name="C_03" value="id='NodeVectores' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(n.x,n.y,60,25)' valor='1' incr='1' min='2' max='2' decimales='0' visible='sí' activo-si='Operacion!=2' ">
+                <param name="C_03" value="id='NodeVectores' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(n.x,n.y,60,25)' valor='1' incr='1' min='1' max='2' decimales='0' visible='sí' activo-si='Operacion!=2' ">
                 <param name="C_04" value="id='v1.x' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(v1x.x,v1y.y,60,20)' valor='3*aleatorio(x)' visible='sí' dibujar-si='NodeVectores>0' ">
                 <param name="C_05" value="id='v1.y' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(v1y.x,v1y.y,60,20)' valor='3*aleatorio(x)' visible='sí' dibujar-si='NodeVectores>0' ">
                 <param name="C_06" value="id='v1.z' tipo='numérico' interfaz='pulsador' región='interior' espacio='Controles' nombre='_nada_' expresión='(v1z.x,v1z.y,60,20)' valor='3*aleatorio(x)' visible='sí' dibujar-si='(R2oR3=1)&(NodeVectores>0)' ">
@@ -219,7 +219,7 @@
                         <h4>Menu</h4>
                         <ul class="fh5co-footer-links">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="blog.html">Aprende</a></li>
+                            <li><a href="vectores.html">Aprende</a></li>
                             <li><a href="about.html">Acerca de</a></li>
                         </ul>
                     </div>
@@ -227,12 +227,11 @@
 
 
                 </div>
-
                 <div class="row copyright">
                     <div class="col-md-12 text-center">
                         <p>
                             <small class="block">&copy; 2022 AvMath</small>
-                            <small class="block">Designed to Universidad Politécnica de Victoria</small>
+                            <small class="block">Designed to <a href="http://www.upvictoria.edu.mx/" target="_blank"></a> Universidad Politécnica de Victoria</small>
                         </p>
                         <p>
                             <ul class="fh5co-social-icons">
@@ -244,6 +243,7 @@
                         </p>
                     </div>
                 </div>
+
             </footer>
         </div>
         <!-- END container-wrap -->
