@@ -1,13 +1,15 @@
 
 TITLE:   
-Neat - 100% Fully Responsive Free HTML5 Bootstrap Template
+AvMath
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+José Luis Alfaro Martínez
+Luis Gerardo González Valdez
+Daniel Armando Ledezma Donjuan
+Juan Eduardo Martínez Zuñiga
+Omar Alejandro Pérez Reyes
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+Designed to Universidad Politécnica de Victoria
 
 
 CREDITS:
